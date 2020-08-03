@@ -25,3 +25,8 @@ eureka:
       #单机版
       # defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7002.com:7002/eureka,http://eureka7001.com:7001/eureka
+  instance:
+    # 服务器名称
+    instance-id: payment8002
+    #访问路径可以显示ip
+    prefer-ip-address: true
